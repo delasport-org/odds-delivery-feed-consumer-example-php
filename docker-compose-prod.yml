@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  events.feed:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .envProd
+    environment: {
+      BUILDER_TYPE: src/Kafka/EventConsumer/eventConsumer.php
+    }
+  settlements.feed:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .envProd
+    environment: {
+      BUILDER_TYPE: src/Kafka/SettlementConsumer/settlementConsumer.php
+    }
+  markets.feed:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .envProd
+    environment: {
+      BUILDER_TYPE: src/Kafka/MarketConsumer/marketConsumer.php
+    }
+  bets.feed:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .envProd
+    environment: {
+      BUILDER_TYPE: src/Kafka/BetConsumer/betConsumer.php
+    }
