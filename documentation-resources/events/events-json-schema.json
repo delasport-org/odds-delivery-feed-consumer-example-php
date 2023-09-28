@@ -529,6 +529,17 @@
         }
       ]
     },
+    "additionalInfo": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
     "id": {
       "oneOf": [
         {
