@@ -1,0 +1,80 @@
+{
+  "origin": {
+    "stream": "sport",
+    "type": "market",
+    "environment": "prod",
+    "version": "1.0.0"
+  },
+  "id": "476916161",
+  "eventInfo": {
+    "id": "6540840",
+    "state": "live",
+    "status": "running",
+    "liveGamePeriod": {
+      "name": "2h"
+    },
+    "liveMinute": 1,
+    "marketsCount": 5,
+    "startDate": "2023-08-29 11:30:00+0000",
+    "timeRange": "today",
+    "sport": {
+      "id": "1",
+      "title": "Football",
+      "key": "soccer"
+    },
+    "country": {
+      "id": "1",
+      "title": "International"
+    },
+    "league": {
+      "id": "16596",
+      "title": "Esoccer Friendly - 15 mins play"
+    },
+    "teams": {
+      "home": {
+        "id": "206115",
+        "name": "Everton Virtual",
+        "color": ""
+      },
+      "away": {
+        "id": "208486",
+        "name": "Juventus Virtual",
+        "color": ""
+      }
+    }
+  },
+  "lineInfo": {
+    "id": "476916161",
+    "index": 1,
+    "updatedAt": "2023-08-29 11:44:24.222+0000",
+    "marketType": {
+      "id": "3",
+      "name": "Over/Under"
+    },
+    "lineEntity": {
+      "id": "1",
+      "name": "Goals"
+    },
+    "gamePeriod": {
+      "id": "2",
+      "name": "Full Time"
+    },
+    "isValid": false,
+    "spread": 1.25
+  },
+  "odds": [
+    {
+      "id": "e_3404677562",
+      "key": "over",
+      "value": 2.136,
+      "isValid": true
+    },
+    {
+      "id": "e_3404677561",
+      "key": "under",
+      "value": 1.663,
+      "isValid": true
+    }
+  ],
+  "timestamp": "2023-08-29 11:44:24.433+0000"
+}

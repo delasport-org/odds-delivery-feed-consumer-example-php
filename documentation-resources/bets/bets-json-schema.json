@@ -1,0 +1,1448 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "title": "Wager",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Wager_odds_system": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "value": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_stake_wallet": {
+      "type": "object",
+      "properties": {
+        "compartment": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_stake_wallet_compartment"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_member": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "username": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_stake_wallet_compartment_virtual": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_teams_away": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_lineInfo_lineEntity": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_odds": {
+      "type": "object",
+      "properties": {
+        "system": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_odds_system"
+            }
+          ]
+        },
+        "player": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_odds_player"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_stake_wallet_compartment": {
+      "type": "object",
+      "properties": {
+        "virtual": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_stake_wallet_compartment_virtual"
+            }
+          ]
+        },
+        "real": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_stake_wallet_compartment_real"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_teams_home": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_potentialWinnings": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "wallet": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_potentialWinnings_wallet"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_potentialWinnings_wallet_compartment_virtual": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_lineInfo": {
+      "type": "object",
+      "properties": {
+        "lineEntity": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_lineInfo_lineEntity"
+            }
+          ]
+        },
+        "isValid": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "index": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "gamePeriod": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_lineInfo_gamePeriod"
+            }
+          ]
+        },
+        "marketType": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_lineInfo_marketType"
+            }
+          ]
+        },
+        "updatedAt": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "spread": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_potentialWinnings_wallet": {
+      "type": "object",
+      "properties": {
+        "compartment": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_potentialWinnings_wallet_compartment"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_gain_wallet_compartment_virtual": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_lineInfo_marketType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_currency": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "exchangeRate": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_odd": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "value": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "key": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_teams": {
+      "type": "object",
+      "properties": {
+        "away": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_teams_away"
+            }
+          ]
+        },
+        "home": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_teams_home"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_brand": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_liveGamePeriod": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_gain_wallet": {
+      "type": "object",
+      "properties": {
+        "compartment": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_gain_wallet_compartment"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_potentialWinnings_wallet_compartment": {
+      "type": "object",
+      "properties": {
+        "virtual": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_potentialWinnings_wallet_compartment_virtual"
+            }
+          ]
+        },
+        "real": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_potentialWinnings_wallet_compartment_real"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_potentialWinnings_wallet_compartment_real": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection": {
+      "type": "object",
+      "properties": {
+        "eventInfo": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "lineInfo": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_lineInfo"
+            }
+          ]
+        },
+        "odd": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_odd"
+            }
+          ]
+        },
+        "status": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_sport": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_stake_wallet_compartment_real": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_gain_wallet_compartment_real": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_session": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_odds_player": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "value": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_lineInfo_gamePeriod": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_origin": {
+      "type": "object",
+      "properties": {
+        "environment": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "stream": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "version": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_gain": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "wallet": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_gain_wallet"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_country": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_country"
+            }
+          ]
+        },
+        "teams": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_teams"
+            }
+          ]
+        },
+        "league": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_league"
+            }
+          ]
+        },
+        "liveGamePeriod": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_liveGamePeriod"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "state": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "liveMinute": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "sport": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Selection_selection_eventInfo_sport"
+            }
+          ]
+        },
+        "startDate": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "status": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_stake": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "wallet": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_stake_wallet"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Wager_gain_wallet_compartment": {
+      "type": "object",
+      "properties": {
+        "virtual": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_gain_wallet_compartment_virtual"
+            }
+          ]
+        },
+        "real": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_gain_wallet_compartment_real"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Selection_selection_eventInfo_league": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "format": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "session": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_session"
+        }
+      ]
+    },
+    "origin": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_origin"
+        }
+      ]
+    },
+    "source": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "type": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "selectionCombineKey": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "gain": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_gain"
+        }
+      ]
+    },
+    "selectedSystems": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      ]
+    },
+    "stake": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_stake"
+        }
+      ]
+    },
+    "potentialWinnings": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_potentialWinnings"
+        }
+      ]
+    },
+    "createdAt": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "systemGroupName": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "selections": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Selection_selection"
+          }
+        }
+      ]
+    },
+    "odds": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_odds"
+        }
+      ]
+    },
+    "member": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_member"
+        }
+      ]
+    },
+    "numberOfSelections": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "currency": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_currency"
+        }
+      ]
+    },
+    "id": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "brand": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/Wager_brand"
+        }
+      ]
+    },
+    "handledAt": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "status": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "updatedAt": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "acceptedAt": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "timestamp": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "origin": {
+    "stream": "sport",
+    "type": "event",
+    "environment": "prod",
+    "version": "1.0.0"
+  },
+  "id": "6540840",
+  "eventInfo": {
+    "id": "6540840",
+    "state": "early",
+    "status": "not_started",
+    "liveGamePeriod": {
+      "name": ""
+    },
+    "liveMinute": 0,
+    "marketsCount": 7,
+    "startDate": "2023-08-29 11:30:00+0000",
+    "timeRange": "today",
+    "sport": {
+      "id": "1",
+      "title": "Football",
+      "key": "soccer"
+    },
+    "country": {
+      "id": "1",
+      "title": "International"
+    },
+    "league": {
+      "id": "16596",
+      "title": "Esoccer Friendly - 15 mins play"
+    },
+    "teams": {
+      "home": {
+        "id": "206115",
+        "name": "Everton Virtual",
+        "color": ""
+      },
+      "away": {
+        "id": "208486",
+        "name": "Juventus Virtual",
+        "color": ""
+      }
+    }
+  },
+  "liveScores": [],
+  "typedScores": {},
+  "timestamp": "2023-08-29 10:50:16.747+0000"
+}

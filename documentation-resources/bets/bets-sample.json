@@ -1,0 +1,334 @@
+{
+  "origin": {
+    "stream": "bet",
+    "type": "sportsBet",
+    "environment": "prod",
+    "version": "1.1.0"
+  },
+  "id": 64723928,
+  "type": "combo",
+  "status": "loss",
+  "source": "mobile",
+  "member": {
+    "id": 123456,
+    "username": "sampleUser"
+  },
+  "session": {
+    "id": "ghas0os02d0cjm9l11n1g35jtu51r6lg10qo92vevbakujg09bg575p10rmlt7k75dsvrp"
+  },
+  "currency": {
+    "id": 1,
+    "name": "EUR",
+    "exchangeRate": 1
+  },
+  "brand": {
+    "id": 13,
+    "name": "WLS-13"
+  },
+  "odds": {
+    "player": {
+      "format": "decimal",
+      "value": 13.21
+    },
+    "system": {
+      "format": "decimal",
+      "value": 0
+    }
+  },
+  "stake": {
+    "amount": 2,
+    "wallet": {
+      "compartment": {
+        "real": {
+          "amount": 2
+        },
+        "virtual": {
+          "amount": 0
+        }
+      }
+    }
+  },
+  "potentialWinnings": {
+    "amount": 24.42,
+    "wallet": {
+      "compartment": {
+        "real": {
+          "amount": 24.42
+        },
+        "virtual": {
+          "amount": 0
+        }
+      }
+    }
+  },
+  "gain": {
+    "amount": 0,
+    "wallet": {
+      "compartment": {
+        "real": {
+          "amount": 0
+        },
+        "virtual": {
+          "amount": 0
+        }
+      }
+    }
+  },
+  "numberOfSelections": 4,
+  "createdAt": "2023-08-29 11:31:58.000+0000",
+  "updatedAt": "2023-08-29 11:57:16.000+0000",
+  "handledAt": "1970-01-01 00:00:00.000+0000",
+  "acceptedAt": "2023-08-29 11:32:08.000+0000",
+  "timestamp": "2023-08-29 11:57:17.043+0000",
+  "selections": [
+    {
+      "id": 64723931,
+      "status": "running",
+      "eventInfo": {
+        "id": 6540840,
+        "state": "live",
+        "status": "active",
+        "liveGamePeriod": {
+          "id": 1,
+          "name": "1H"
+        },
+        "liveMinute": 0,
+        "startDate": "2023-08-29 11:30:00.000",
+        "sport": {
+          "id": 1,
+          "name": "Football"
+        },
+        "country": {
+          "id": 1,
+          "name": "International"
+        },
+        "league": {
+          "id": 16596,
+          "name": "Esoccer Friendly - 15 mins play"
+        },
+        "teams": {
+          "home": {
+            "id": 206115,
+            "name": "Everton Virtual"
+          },
+          "away": {
+            "id": 208486,
+            "name": "Juventus Virtual"
+          }
+        }
+      },
+      "lineInfo": {
+        "id": 476900158,
+        "index": "",
+        "updatedAt": "",
+        "marketType": {
+          "id": 3,
+          "name": "Over / Under"
+        },
+        "lineEntity": {
+          "id": 1,
+          "name": "Goals"
+        },
+        "gamePeriod": {
+          "id": 2,
+          "name": "Full Time"
+        },
+        "isValid": true,
+        "spread": 2.75
+      },
+      "odd": {
+        "id": "e_3404672321",
+        "key": "over",
+        "value": 1.95,
+        "format": "decimal"
+      }
+    },
+    {
+      "id": 64723930,
+      "status": "running",
+      "eventInfo": {
+        "id": 6540839,
+        "state": "live",
+        "status": "active",
+        "liveGamePeriod": {
+          "id": 1,
+          "name": "1H"
+        },
+        "liveMinute": 0,
+        "startDate": "2023-08-29 11:30:00.000",
+        "sport": {
+          "id": 1,
+          "name": "Football"
+        },
+        "country": {
+          "id": 1,
+          "name": "International"
+        },
+        "league": {
+          "id": 16596,
+          "name": "Esoccer Friendly - 15 mins play"
+        },
+        "teams": {
+          "home": {
+            "id": 209403,
+            "name": "Bayer 04 Leverkusen Virtual"
+          },
+          "away": {
+            "id": 206330,
+            "name": "AS Roma Virtual"
+          }
+        }
+      },
+      "lineInfo": {
+        "id": 476897253,
+        "index": "",
+        "updatedAt": "",
+        "marketType": {
+          "id": 3,
+          "name": "Over / Under"
+        },
+        "lineEntity": {
+          "id": 1,
+          "name": "Goals"
+        },
+        "gamePeriod": {
+          "id": 2,
+          "name": "Full Time"
+        },
+        "isValid": true,
+        "spread": 1.5
+      },
+      "odd": {
+        "id": "e_3404659894",
+        "key": "over",
+        "value": 1.93,
+        "format": "decimal"
+      }
+    },
+    {
+      "id": 64723929,
+      "status": "loss",
+      "eventInfo": {
+        "id": 6540833,
+        "state": "live",
+        "status": "disabled",
+        "liveGamePeriod": {
+          "id": 0,
+          "name": "1H"
+        },
+        "liveMinute": 0,
+        "startDate": "2023-08-29 11:30:00.000",
+        "sport": {
+          "id": 1,
+          "name": "Football"
+        },
+        "country": {
+          "id": 1,
+          "name": "International"
+        },
+        "league": {
+          "id": 16596,
+          "name": "Esoccer Friendly - 15 mins play"
+        },
+        "teams": {
+          "home": {
+            "id": 209192,
+            "name": "Valencia Virtual"
+          },
+          "away": {
+            "id": 208922,
+            "name": "Real Sociedad Virtual"
+          }
+        }
+      },
+      "lineInfo": {
+        "id": 476893131,
+        "index": "",
+        "updatedAt": "",
+        "marketType": {
+          "id": 3,
+          "name": "Over / Under"
+        },
+        "lineEntity": {
+          "id": 1,
+          "name": "Goals"
+        },
+        "gamePeriod": {
+          "id": 2,
+          "name": "Full Time"
+        },
+        "isValid": true,
+        "spread": 2.5
+      },
+      "odd": {
+        "id": "e_3404672273",
+        "key": "over",
+        "value": 1.95,
+        "format": "decimal"
+      }
+    },
+    {
+      "id": 64723932,
+      "status": "running",
+      "eventInfo": {
+        "id": 6540863,
+        "state": "live",
+        "status": "active",
+        "liveGamePeriod": {
+          "id": 0,
+          "name": "Live"
+        },
+        "liveMinute": 0,
+        "startDate": "2023-08-29 11:30:00.000",
+        "sport": {
+          "id": 1,
+          "name": "Football"
+        },
+        "country": {
+          "id": 1,
+          "name": "International"
+        },
+        "league": {
+          "id": 12710,
+          "name": "Esoccer Friendly - 20 mins play",
+          "format": "cyber2x10"
+        },
+        "teams": {
+          "home": {
+            "id": 207724,
+            "name": "Belgium Virtual"
+          },
+          "away": {
+            "id": 207719,
+            "name": "Poland Virtual"
+          }
+        }
+      },
+      "lineInfo": {
+        "id": 476901166,
+        "index": "",
+        "updatedAt": "",
+        "marketType": {
+          "id": 3,
+          "name": "Over / Under"
+        },
+        "lineEntity": {
+          "id": 1,
+          "name": "Goals"
+        },
+        "gamePeriod": {
+          "id": 2,
+          "name": "Full Time"
+        },
+        "isValid": true,
+        "spread": 2
+      },
+      "odd": {
+        "id": "e_3404699727",
+        "key": "over",
+        "value": 1.8,
+        "format": "decimal"
+      }
+    }
+  ]
+}
