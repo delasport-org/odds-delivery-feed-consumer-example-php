@@ -5,69 +5,72 @@
     "environment": "prod",
     "version": "1.0.0"
   },
-  "id": "422796af-4661-11ee-8243-42010a9c003a",
-  "status": "win",
+  "id": "e5c74f0d-ae2a-11ee-8283-42010a9c003a",
+  "status": "loss",
   "eventInfo": {
-    "id": "6540840",
+    "id": "7060803",
     "state": "live",
-    "status": "running",
+    "status": "active",
     "liveGamePeriod": {
-      "name": "2h"
+      "id": "2",
+      "name": "NA"
     },
-    "liveMinute": 1,
-    "marketsCount": 5,
-    "startDate": "2023-08-29 11:30:00+0000",
-    "timeRange": "today",
+    "liveMinute": 45,
+    "marketsCount": 49,
+    "startDate": "2024-01-09 10:30:00.000+0000",
+    "timeRange": "NA",
     "sport": {
       "id": "1",
       "title": "Football",
-      "key": "soccer"
+      "key": "NA"
     },
     "country": {
-      "id": "1",
-      "title": "International"
+      "id": "103",
+      "title": "Iran"
     },
     "league": {
-      "id": "16596",
-      "title": "Esoccer Friendly - 15 mins play"
+      "id": "8538",
+      "title": "Iran Second Division",
+      "format": "NA"
     },
     "teams": {
       "home": {
-        "id": "206115",
-        "name": "Everton Virtual",
-        "color": ""
+        "id": "820651",
+        "name": "KIA Academy",
+        "color": "NA"
       },
       "away": {
-        "id": "208486",
-        "name": "Juventus Virtual",
-        "color": ""
+        "id": "186231",
+        "name": "Shahid Ghandi",
+        "color": "NA"
       }
     }
   },
   "lineInfo": {
-    "id": "476916281",
-    "index": 2,
-    "updatedAt": "2023-08-29 11:44:24.222+0000",
+    "id": "539195162",
+    "index": 1,
+    "marketStatus": "suspended",
+    "updatedAt": "2024-01-09 11:23:29.154+0000",
     "marketType": {
-      "id": "3",
-      "name": "Over/Under"
+      "id": "19",
+      "name": "first_to_score"
     },
     "lineEntity": {
       "id": "1",
-      "name": "Goals"
+      "name": "goals"
     },
     "gamePeriod": {
-      "id": "2",
-      "name": "Full Time"
+      "id": "1",
+      "name": "fh"
     },
     "isValid": false,
-    "spread": 1
+    "spread": 0
   },
   "odd": {
-    "id": "e_3404677826",
-    "key": "over",
-    "value": 1.583,
+    "id": "e_3569458995",
+    "key": "away",
+    "value": 12.953,
     "isValid": true
   },
-  "timestamp": "2023-08-29 11:58:21.017+0000"
+  "timestamp": "2024-01-09 11:32:42.185+0000"
 }

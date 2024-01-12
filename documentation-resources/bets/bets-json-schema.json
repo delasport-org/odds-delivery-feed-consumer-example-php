@@ -796,6 +796,17 @@
     "Wager_session": {
       "type": "object",
       "properties": {
+        "device": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "$ref": "#/definitions/Wager_session_device"
+            }
+          ]
+        },
         "id": {
           "oneOf": [
             {
@@ -938,6 +949,100 @@
             },
             {
               "$ref": "#/definitions/Wager_gain_wallet"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "CashOutRequest": {
+      "type": "object",
+      "properties": {
+        "stake": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "retries": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "reason": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "amount": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "status": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "updatedAt": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
             }
           ]
         }
@@ -1182,9 +1287,40 @@
         }
       },
       "additionalProperties": false
+    },
+    "Wager_session_device": {
+      "type": "object",
+      "properties": {
+        "ipAddress": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
     }
   },
   "properties": {
+    "cashOutRequests": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CashOutRequest"
+          }
+        }
+      ]
+    },
     "session": {
       "oneOf": [
         {

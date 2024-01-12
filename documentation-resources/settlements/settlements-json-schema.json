@@ -334,6 +334,17 @@
             }
           ]
         },
+        "marketStatus": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
         "index": {
           "oneOf": [
             {

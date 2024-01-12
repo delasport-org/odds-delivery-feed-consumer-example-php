@@ -1,0 +1,1514 @@
+{
+  "origin": {
+    "stream": "sport",
+    "type": "event",
+    "environment": "prod",
+    "version": "1.0.0"
+  },
+  "id": "7060803",
+  "eventInfo": {
+    "id": "7060803",
+    "state": "live",
+    "status": "active",
+    "liveGamePeriod": {
+      "id": "1",
+      "name": "1H"
+    },
+    "liveMinute": 46,
+    "startDate": "2024-01-09 10:30:00.000+0000",
+    "timeRange": "NA",
+    "sport": {
+      "id": "1",
+      "title": "Football"
+    },
+    "country": {
+      "id": "103",
+      "title": "Iran"
+    },
+    "league": {
+      "id": "8538",
+      "title": "Iran Second Division"
+    },
+    "teams": {
+      "home": {
+        "id": "820651",
+        "name": "KIA Academy"
+      },
+      "away": {
+        "id": "186231",
+        "name": "Shahid Ghandi"
+      }
+    }
+  },
+  "liveScores": [
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "7",
+        "name": "offsides"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "947",
+        "name": "1_80th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "943",
+        "name": "1_60th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "936",
+        "name": "1_20th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "936",
+        "name": "1_20th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "243",
+        "name": "shots"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "938",
+        "name": "1_30th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "943",
+        "name": "1_60th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "4",
+        "name": "etfh"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "941",
+        "name": "1_50th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "940",
+        "name": "1_40th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "6",
+        "name": "pen"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "4",
+        "name": "etfh"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "3",
+        "name": "red_cards"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "947",
+        "name": "1_80th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "6",
+        "name": "penalties"
+      },
+      "gamePeriod": {
+        "id": "6",
+        "name": "pen"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "940",
+        "name": "1_40th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "938",
+        "name": "1_30th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "1",
+        "name": "fh"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "945",
+        "name": "1_70th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "154",
+        "name": "6_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 1,
+      "away": 1
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "3",
+        "name": "sh"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 0,
+      "away": 1
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "1",
+        "name": "fh"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "150",
+        "name": "2_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "156",
+        "name": "8_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "151",
+        "name": "3_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "211",
+        "name": "assists"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "3",
+        "name": "sh"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "5",
+        "name": "etft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "941",
+        "name": "1_50th"
+      },
+      "home": 1,
+      "away": 1
+    },
+    {
+      "lineEntity": {
+        "id": "244",
+        "name": "shots_on_target"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "157",
+        "name": "9_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "1",
+        "name": "goals"
+      },
+      "gamePeriod": {
+        "id": "5",
+        "name": "etft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "153",
+        "name": "5_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "4",
+        "name": "throw_ins"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "2",
+        "name": "corners"
+      },
+      "gamePeriod": {
+        "id": "945",
+        "name": "1_70th"
+      },
+      "home": 1,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "47",
+        "name": "bookings"
+      },
+      "gamePeriod": {
+        "id": "149",
+        "name": "1_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "5",
+        "name": "goal_kicks"
+      },
+      "gamePeriod": {
+        "id": "155",
+        "name": "7_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "50",
+        "name": "free_kicks"
+      },
+      "gamePeriod": {
+        "id": "152",
+        "name": "4_10th"
+      },
+      "home": 0,
+      "away": 0
+    },
+    {
+      "lineEntity": {
+        "id": "53",
+        "name": "yellow_cards"
+      },
+      "gamePeriod": {
+        "id": "2",
+        "name": "ft"
+      },
+      "home": 0,
+      "away": 0
+    }
+  ],
+  "typedScores": {
+    "free_kicks": {
+      "4_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "penalties": {
+      "pen": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "red_cards": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "yellow_cards": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "corners": {
+      "fh": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_80th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "1_70th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_50th": {
+        "homeTeam": 1,
+        "awayTeam": 1
+      },
+      "1_60th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "1_40th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_20th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_30th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "etft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "4_10th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "sh": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "etfh": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "throw_ins": {
+      "4_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "assists": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "shots_on_target": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "bookings": {
+      "4_10th": {
+        "homeTeam": 0,
+        "awayTeam": 1
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 1,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 1,
+        "awayTeam": 1
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "goal_kicks": {
+      "4_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "shots": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "goals": {
+      "fh": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "2_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "3_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_80th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_70th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "6_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_50th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "9_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_60th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_40th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_20th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "1_30th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "etft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "4_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "sh": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "7_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "pen": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "8_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "etfh": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      },
+      "5_10th": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    },
+    "offsides": {
+      "ft": {
+        "homeTeam": 0,
+        "awayTeam": 0
+      }
+    }
+  },
+  "timestamp": "2024-01-09 11:21:32.867+0000"
+}

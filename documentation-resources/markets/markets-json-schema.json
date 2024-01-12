@@ -1,7 +1,7 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "title": "Event Sports Stream Message",
+  "title": "Market Sports Stream Message",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
     "Origin": {
@@ -54,34 +54,6 @@
       },
       "additionalProperties": false
     },
-    "Sport": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "oneOf": [
-            {
-              "type": "null",
-              "title": "Not included"
-            },
-            {
-              "type": "string"
-            }
-          ]
-        },
-        "id": {
-          "oneOf": [
-            {
-              "type": "null",
-              "title": "Not included"
-            },
-            {
-              "type": "string"
-            }
-          ]
-        }
-      },
-      "additionalProperties": false
-    },
     "League": {
       "type": "object",
       "properties": {
@@ -121,34 +93,6 @@
       },
       "additionalProperties": false
     },
-    "Score": {
-      "type": "object",
-      "properties": {
-        "awayTeam": {
-          "oneOf": [
-            {
-              "type": "null",
-              "title": "Not included"
-            },
-            {
-              "type": "integer"
-            }
-          ]
-        },
-        "homeTeam": {
-          "oneOf": [
-            {
-              "type": "null",
-              "title": "Not included"
-            },
-            {
-              "type": "integer"
-            }
-          ]
-        }
-      },
-      "additionalProperties": false
-    },
     "LiveGamePeriod": {
       "type": "object",
       "properties": {
@@ -171,6 +115,56 @@
             },
             {
               "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "OddOddsHistory": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "value": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "key": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "isValid": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "boolean"
             }
           ]
         }
@@ -315,7 +309,7 @@
       },
       "additionalProperties": false
     },
-    "LiveScores": {
+    "LineInfo": {
       "type": "object",
       "properties": {
         "lineEntity": {
@@ -329,7 +323,29 @@
             }
           ]
         },
-        "away": {
+        "isValid": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "marketStatus": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "index": {
           "oneOf": [
             {
               "type": "null",
@@ -337,6 +353,17 @@
             },
             {
               "type": "integer"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
             }
           ]
         },
@@ -351,14 +378,92 @@
             }
           ]
         },
-        "home": {
+        "marketType": {
           "oneOf": [
             {
               "type": "null",
               "title": "Not included"
             },
             {
-              "type": "integer"
+              "$ref": "#/definitions/MarketType"
+            }
+          ]
+        },
+        "updatedAt": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "spread": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "LineEntity": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Sport": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "oneOf": [
+            {
+              "type": "null",
+              "title": "Not included"
+            },
+            {
+              "type": "string"
             }
           ]
         }
@@ -477,7 +582,7 @@
       },
       "additionalProperties": false
     },
-    "LineEntity": {
+    "MarketType": {
       "type": "object",
       "properties": {
         "name": {
@@ -518,6 +623,17 @@
         }
       ]
     },
+    "lineInfo": {
+      "oneOf": [
+        {
+          "type": "null",
+          "title": "Not included"
+        },
+        {
+          "$ref": "#/definitions/LineInfo"
+        }
+      ]
+    },
     "origin": {
       "oneOf": [
         {
@@ -529,14 +645,17 @@
         }
       ]
     },
-    "additionalInfo": {
+    "odds": {
       "oneOf": [
         {
           "type": "null",
           "title": "Not included"
         },
         {
-          "type": "string"
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OddOddsHistory"
+          }
         }
       ]
     },
@@ -548,37 +667,6 @@
         },
         {
           "type": "string"
-        }
-      ]
-    },
-    "liveScores": {
-      "oneOf": [
-        {
-          "type": "null",
-          "title": "Not included"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/LiveScores"
-          }
-        }
-      ]
-    },
-    "typedScores": {
-      "oneOf": [
-        {
-          "type": "null",
-          "title": "Not included"
-        },
-        {
-          "type": "object",
-          "additionalProperties": {
-            "type": "object",
-            "additionalProperties": {
-              "$ref": "#/definitions/Score"
-            }
-          }
         }
       ]
     },

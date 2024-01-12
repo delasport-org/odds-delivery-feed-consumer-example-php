@@ -5,76 +5,80 @@
     "environment": "prod",
     "version": "1.0.0"
   },
-  "id": "476916161",
+  "id": "539195162",
   "eventInfo": {
-    "id": "6540840",
-    "state": "live",
-    "status": "running",
+    "id": "7060803",
+    "state": "early",
+    "status": "active",
     "liveGamePeriod": {
-      "name": "2h"
+      "id": "NA",
+      "name": "NA"
     },
-    "liveMinute": 1,
-    "marketsCount": 5,
-    "startDate": "2023-08-29 11:30:00+0000",
-    "timeRange": "today",
+    "liveMinute": 0,
+    "marketsCount": 143,
+    "startDate": "2024-01-09 10:30:00.000+0000",
+    "timeRange": "NA",
     "sport": {
       "id": "1",
-      "title": "Football",
-      "key": "soccer"
+      "title": "Football"
     },
     "country": {
-      "id": "1",
-      "title": "International"
+      "id": "103",
+      "title": "Iran"
     },
     "league": {
-      "id": "16596",
-      "title": "Esoccer Friendly - 15 mins play"
+      "id": "8538",
+      "title": "Iran Second Division"
     },
     "teams": {
       "home": {
-        "id": "206115",
-        "name": "Everton Virtual",
-        "color": ""
+        "id": "820651",
+        "name": "KIA Academy"
       },
       "away": {
-        "id": "208486",
-        "name": "Juventus Virtual",
-        "color": ""
+        "id": "186231",
+        "name": "Shahid Ghandi"
       }
     }
   },
   "lineInfo": {
-    "id": "476916161",
+    "id": "539195162",
     "index": 1,
-    "updatedAt": "2023-08-29 11:44:24.222+0000",
+    "updatedAt": "2024-01-09 09:30:11.814+0000",
     "marketType": {
-      "id": "3",
-      "name": "Over/Under"
+      "id": "19",
+      "name": "first_to_score"
     },
     "lineEntity": {
       "id": "1",
-      "name": "Goals"
+      "name": "goals"
     },
     "gamePeriod": {
-      "id": "2",
-      "name": "Full Time"
+      "id": "1",
+      "name": "fh"
     },
-    "isValid": false,
-    "spread": 1.25
+    "isValid": true,
+    "spread": 0
   },
   "odds": [
     {
-      "id": "e_3404677562",
-      "key": "over",
-      "value": 2.136,
+      "id": "e_3569458994",
+      "key": "home",
+      "value": 2.687,
       "isValid": true
     },
     {
-      "id": "e_3404677561",
-      "key": "under",
-      "value": 1.663,
+      "id": "e_3569458995",
+      "key": "away",
+      "value": 3.938,
+      "isValid": true
+    },
+    {
+      "id": "e_3569458996",
+      "key": "no_goals",
+      "value": 2.17,
       "isValid": true
     }
   ],
-  "timestamp": "2023-08-29 11:44:24.433+0000"
+  "timestamp": "2024-01-09 09:30:11.814+0000"
 }
